@@ -63,6 +63,8 @@ developing your own process.
 - Add a new toy when the toy form is submitted
 
   - How I debugged:
+    1. The network showed an uninitialized constant Toys in the ToysController. Changed the Toys.create to Toy.create
+    2. 
 
 - Update the number of likes for a toy
 
